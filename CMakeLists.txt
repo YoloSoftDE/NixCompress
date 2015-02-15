@@ -10,5 +10,5 @@ ELSEIF (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 	file(GLOB OS_SOURCES source/windows/*.c)
 ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 
-add_executable(nc ${SHARED_SOURCES} ${OS_SOURCES})
-target_link_libraries(nc m)
+add_executable(lz1337 ${SHARED_SOURCES} ${OS_SOURCES})
+target_link_libraries(lz1337 m)
