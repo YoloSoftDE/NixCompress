@@ -12,6 +12,12 @@ SimpleDraw executable from the [official
 site](http://www.iem.thm.de/iem/graefe.html). Pleace the executable 
 within the same or in the parent path relative to the lz1337 executable.
 
+Visualizations are disabled by default. Open CMakeLists.txt and uncomment (remove the # at the beginning) the cmake command listed below (it sould be at line 7):
+
+    add_definitions(-DVISUALIZATION)
+
+Compile again!
+
 ### Linux ###
 
     git clone https://github.com/YoloSoftDE/NixCompress.git
@@ -38,6 +44,14 @@ You'll get help, when you request for it (lz1337 -h).
       -x, --extract         unpack archive
       -v, --verbose         verbose output
       -h, --help            shows this help message
+
+## Screenshots ##
+
+Normal usage, creation of an archive and listing of its contents.
+![Normal usage, creation of an archive and listing of its contents](http://i.imgur.com/RllH7Ra.png "Normal usage, creation of an archive and listing of its contents")
+
+Example of an generation huffman tree (you'll get this when visualizations are enabled at compile time).
+![Example of an generation huffman tree](http://i.imgur.com/xra5URK.png "Example of an generation huffman tree")
 
 ## License ##
 
