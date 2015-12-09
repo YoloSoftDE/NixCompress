@@ -50,8 +50,8 @@ You'll get help, when you request for it (lz1337 -h).
 Normal usage, creation of an archive and listing of its contents.
 ![Normal usage, creation of an archive and listing of its contents](http://i.imgur.com/RllH7Ra.png "Normal usage, creation of an archive and listing of its contents")
 
-Example of an generation huffman tree (you'll get this when visualizations are enabled at compile time).
-![Example of an generation huffman tree](http://i.imgur.com/xra5URK.png "Example of an generation huffman tree")
+Example of a generated huffman tree (you'll get this when visualizations are enabled at compile time).
+![Example of a generated huffman tree](http://i.imgur.com/xra5URK.png "Example of a generated huffman tree")
 
 ## License ##
 
