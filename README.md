@@ -4,7 +4,7 @@
 
 The project is shipped along with a CMake file. You can easily compile from source by building a Makefile for your OS.
 
-You will need cmake in at least version 2.8, but c compiler will do the 
+You will need cmake in at least version 2.8, but any ANSI-c compiler will do the 
 job.
 
 When using the visualization of the huffmann-tree you need to get the 
